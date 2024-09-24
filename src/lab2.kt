@@ -1,8 +1,8 @@
 fun main() {
     println("Введите простое число:")
-    val primeNumber = readln().toInt()
-    val nextPrime = findNextPrime(primeNumber)
-    println("Следующее простое число после $primeNumber: $nextPrime")
+    val num = readln().toInt()
+    val nextNum = findNextPrime(num)
+    println("Следующее простое число после $num: $nextNum")
 }
 
 fun findNextPrime(number: Int): Int {
